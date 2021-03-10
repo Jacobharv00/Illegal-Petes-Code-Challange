@@ -13,7 +13,21 @@ Build a function `nowServing`. This function should accept the current line of p
 ### Challenge 3
 Build a function currentLine that accepts the current line of people and returns the current line as a string; for example, if `burritoLine` is currently `["Tash", "Grace"]`, `currentLine(katzDeliLine)` would return "The line is currently: 1. Tash, 2. Grace". You don't have to use `burritoLine` as a variable or parameter name in your function though, it's just an example of a variable that might be passed to it. If there is nobody in line, it should return "The line is currently empty."
 
-Use the following examples, as well as tests you build on your own, to make sure your code is working:
+# IMPORTANT 
+
+## Code Challenge set up:
+Clone this repository down to your local machine.
+CD into the challenge from your terminal.
+Once you are in the appropriate directory, run `git checkout -b jacobs-branch`
+Then, run `code .` to open up your text editor. 
+Make a commit after each challenge is complete by running the following commands in your terminal (make sure you are in the right directory and on your appropriate branch):
+`git add .` => this will set up all your code for pushing
+`git commit -m "type out which challenge is complete in this message"` => this gives a message for which challenge you are commiting.
+`git push` pushes your code up to github!
+
+
+### Examples and tests
+Use the following examples, as well as tests you build on your own, to make sure your code is working. Set a timer, and try to complete this challenge in 60 minutes.
 
 ```
 const burritoLine = [];
