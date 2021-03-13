@@ -30,6 +30,17 @@ const currentLine = function (burritoLine) {
     }
 }
 
+console.log(takeANumber(burritoLine, 'Tash'))
+console.log(takeANumber(burritoLine, 'Grace'))
+console.log(takeANumber(burritoLine, 'Aidan'))
+console.log(currentLine(burritoLine))
+console.log(nowServing(burritoLine))
+
+
+
+
+
+
 
 
 
