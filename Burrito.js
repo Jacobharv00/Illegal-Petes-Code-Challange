@@ -18,3 +18,20 @@ const nowServing = function (burritoLine) {
     }
 }
 
+const currentLine = function (burritoLine) {
+    if (burritoLine.length === 0) {
+        return `The line is currently empty.`
+    } else {
+        let line = []
+        for (let i = 0; i < burritoLine.length; i++) {
+            line.push(`${i+1}. ${burritoLine[i]}`)
+        }
+        return `The line is currently:` + line 
+    }
+}
+
+
+
+
+
+
